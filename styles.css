@@ -1,8 +1,10 @@
+/* Definindo a fonte personalizada Montserrat para uso na página */
 @font-face {
     font-family: 'Montserrat';
     src: url('Montserrat.ttf');
 }
 
+/* Estilos gerais para redefinir padrões do navegador e definir a fonte Montserrat como padrão */
 * {
     margin: 0px;
     padding: 0px;
@@ -10,11 +12,13 @@
     box-sizing: border-box;
 }
 
+/* Estilos gerais para o corpo da página */
 body{
     background-color: #9FB4C8;
     height: 100%;
 }
 
+/* Container central da página */
 #center{
     margin: 0 auto;
     width: 51%;
@@ -23,6 +27,7 @@ body{
     display: block;
 }
 
+/* Bloco superior da página */
 #top-square{
     padding-top: 20px;
     width: 100%;
@@ -30,6 +35,7 @@ body{
     background-color: #79D3F6;
 }
 
+/* Barra de navegação */
 .nav{
     text-align: center;
     background-color: #044853;
@@ -39,6 +45,7 @@ body{
     box-sizing: border-box;
 }
 
+/* Estilos para os links da barra de navegação */
 .nav a{
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
@@ -47,11 +54,13 @@ body{
     margin: 0 2%;
 }
 
+/* Efeito de destaque nos links ao passar o mouse sobre eles */
 .nav a:hover{
     border-bottom: 4px solid #FFB8AC;
     border-radius: 25%;
 }
 
+/* Estilos para a imagem */
 #eu{
     width: 200px;
     border-radius: 10%;
@@ -59,6 +68,7 @@ body{
     float: left;
 }
 
+/* Estilos para o nome (dividido em três linhas) */
 #top-square #nome{
     margin-top: 20px;
     margin-left: 10px;
@@ -67,18 +77,20 @@ body{
     box-sizing: border-box;
 }
 
+/* Estilos para os elementos H1 dentro do bloco de nome */
 #top-square #nome h1{
     font-size: 48px;
     margin-top: 10px
 }
 
+/* Bloco inferior da página */
 #bottom-square{
-
     background-color: #FFB8AC;
     height: 50%;
     width: 100%;
 }
 
+/* Estilos para o parágrafo de texto no bloco inferior */
 #text-me{
     margin-left: 50px;
     padding-top: 10%;
@@ -90,6 +102,7 @@ body{
     line-height: 36px;
 }
 
+/* Bloco principal da página */
 #main-square{
     padding-top: 20px;
     width: 100%;
@@ -97,6 +110,7 @@ body{
     background-color: #79D3F6;
 }
 
+/* Estilos para elementos com a classe text-block*/
 .text-block{
     border-radius: 15%;
     margin-left: 50px;
@@ -112,6 +126,7 @@ body{
     height: 85%;
 }
 
+/* Estilos para elementos com a classe form*/
 .form{
     text-align: center;
     border-radius: 15%;
@@ -128,6 +143,7 @@ body{
     height: 85%;
 }
 
+/* Estilos para o título do formulário de contato */
 .form h1{
     font-size: 36px;
     margin-bottom: 24px;
