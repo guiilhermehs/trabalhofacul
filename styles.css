@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9FB4C8;
+    height: 100%;
+}
+
+#center{
+    margin: 0 auto;
+    width: 51%;
+    height: 100vh;
+    background-color: aqua;
+    display: block;
+}
+
+#top-square{
+    padding-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: #79D3F6;
+}
+
+.nav{
+    text-align: center;
+    background-color: #044853;
+    width: 100%;
+    height: 50px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.nav a{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.nav a:hover{
+    border-bottom: 4px solid #FFB8AC;
+    border-radius: 25%;
+}
+
+#eu{
+    width: 200px;
+    border-radius: 10%;
+    margin-left: 50px;
+    float: left;
+}
+
+#top-square #nome{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    float:left;
+    box-sizing: border-box;
+}
+
+#top-square #nome h1{
+    font-size: 48px;
+    margin-top: 10px
+}
+
+#bottom-square{
+
+    background-color: #FFB8AC;
+    height: 50%;
+    width: 100%;
+}
+
+#text-me{
+    margin-left: 50px;
+    padding-top: 10%;
+    display: block;
+    justify-content:flex-start;
+    width: 70%;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#main-square{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #79D3F6;
+}
+
+.text-block{
+    border-radius: 15%;
+    margin-left: 50px;
+    padding: 10%;
+    display: block;
+    width: 70%;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #FFB8AC;
+    margin: 30px auto;
+    width: 80%;
+    height: 85%;
+}
+
+.form{
+    text-align: center;
+    border-radius: 15%;
+    margin-left: 50px;
+    padding: 10%;
+    display: block;
+    width: 70%;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: #FFB8AC;
+    margin: 30px auto;
+    width: 80%;
+    height: 85%;
+}
+
+.form h1{
+    font-size: 36px;
+    margin-bottom: 24px;
+}
